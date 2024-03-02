@@ -1,0 +1,27 @@
+{
+  "name": "talking-ai-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that join the voice and text chat, listen to what you say and respond",
+  "main": "bot.js",
+  "scripts": {
+		"start": "node ./src/bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vuka951/talking-ai-discord-bot.git"
+  },
+  "author": "Vuka",
+  "license": "MIT",
+  "dependencies": {
+		"@discordjs/voice": "^0.16.1",
+		"@google-cloud/speech": "^6.1.1",
+		"@google-cloud/text-to-speech": "^5.0.2",
+		"@google-cloud/vertexai": "^0.3.1",
+		"discord.js": "^13.0.1",
+		"get-audio-duration": "^4.0.1",
+		"prism-media": "^2.0.0-alpha.0",
+    "libsodium-wrappers": "^0.7.9",
+    "@discordjs/opus": "^0.5.3",
+    "node-crc": "^1.3.2"
+	}
+}
